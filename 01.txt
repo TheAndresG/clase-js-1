@@ -1,0 +1,47 @@
+Que es la Programacion?
+La programación informática es el arte del proceso por el cual se limpia, codifica, traza y protege el código fuente de programas computacionales, en otras palabras, es indicarle a la computadora lo que tiene que hacer.
+Que se hace con la programacion?
+Cualquien aplicación, web o software, para representar un concepto o un proyecto que requiere del uso de un lenguaje informático para realizarse.
+Que es un lenguaje informatico/de programacion?
+Un lenguaje informático especialmente diseñado para describir el conjunto de acciones consecutivas o instrucciones que un equipo informático debe ejecutar. Por ejemplo: PHP, Java, C++, Python.
+La progamacion es solo Electronica?
+En 1801, un inventor francés, Joseph Marie Jacquard fue el inventor del telar programable. Jacquard creó unas tarjetas programables que se introducían en un telar que leía el código, que contenía las instrucciones y, de esta forma, se automatizaba el proceso.
+Asi que no, no es necesariamente electronica.
+
+-----HTML----
+Que es HTML?
+Definiéndolo de forma sencilla, "HTML es el lenguaje que se utiliza para crear las páginas web a las que se accede mediante internet". Más concretamente, HTML es el lenguaje con el que se "escriben" la mayoría de páginas web.
+El origen de HTML se remonta a 1980, cuando el físico Tim Berners-Lee, investigador del CERN (Organización Europea para la Investigación Nuclear) propuso un nuevo sistema de “hipertexto” para compartir documentos. 
+Tras finalizar el desarrollo de su sistema, Tim Berners-Lee lo presentó a una convocatoria organizada para desarrollar un sistema de hipertexto para internet. Después de unir sus fuerzas con el ingeniero de sistemas Robert Cailliau, presentaron la propuesta ganadora llamada WorldWideWeb (W3).
+
+La última especificación oficial de HTML se publicó el 24 de diciembre de 1999 y se denomina HTML 4.01.
+~Bardo por falta de intenes en HTML a causa de XHTML~
+HTML5 se presentó el 27 de octubre de 2014 la versión final. Su intención es que se construya lo que se ha llamado Plataforma Web abierta, donde el HTML5, junto a Javascript y CSS3, se podrá utilizar para el desarrollo de aplicaciones multiplataforma (Linux, Windows, Android, iOS..).
+
+HTML es un lenguanje de programacion?
+No. El Lenguaje de Marcado de Hipertexto (HTML) es el código que se utiliza para estructurar y desplegar una página web y sus contenidos. Por ejemplo, sus contenidos podrían ser párrafos, una lista con viñetas, o imágenes y tablas de datos.
+
+HTML utiliza Etiquetas:
+por ejemplo se quiere dividir el texto en párrafos y se desea dar especial importancia a algunas palabras, se podría indicar de la siguiente manera:
+<parrafo> Contenido de texto con <importante>algunas palabras</importante> resaltadas de forma especial. </parrafo>
+
+La estructura típica de las etiquetas HTML
+<nombre_etiqueta> ... </nombre_etiqueta>
+
+Partes del HTML
+Se divide en 2 secciones: 
+Header: contiene todo lo que no se ve (con la única excepción del título de la página, que los navegadores muestran como título de sus ventanas).
+Body: contiene todo lo que el usuario ve en su pantalla.
+ej:
+<html>
+<head>
+<title>Mi primer documento HTML</title>
+</head>
+
+<body>
+<p>El lenguaje HTML es <b>tan sencillo</b> que
+prácticamente se entiende sin estudiar el significado
+de sus etiquetas principales.</p>
+</body>
+
+</html>

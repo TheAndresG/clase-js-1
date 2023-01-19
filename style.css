@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+html {
+  height: 100%;
+}
+body {
+  background-color: #140e068f;
+  color: rgb(235, 235, 235);
+  text-shadow: 0px 0px 5px black;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+input {
+  background-color: rgb(37, 37, 37);
+  border: black solid 1.5px;
+  border-radius: 30px;
+  color: white;
+  padding: 2px;
+}
+button,
+select {
+  padding: 3px;
+  border-radius: 10px;
+  border: 1px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+button:hover {
+  background-color: rgb(170, 190, 187);
+  font-weight: 400;
+  transform: scale(1.1);
+}
+a {
+  text-decoration: dotted;
+  text-shadow: 0 0 3px red;
+  margin-left: 10px;
+}
+a:visited {
+  color: antiquewhite;
+}
+
+.header-cont {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.inputs_cont {
+  height: 60%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#contenedor-dos {
+  display: flex;
+  height: 200px;
+  width: 780px;
+}
+
+#actual {
+  text-decoration: line-through;
+  color: red;
+}
+
+#contenedor-dos textarea {
+  resize: none;
+  width: 50%;
+  background-color: rgb(37, 37, 37);
+
+  border: black solid 1.5px;
+  border-radius: 30px;
+  color: white;
+  padding: 10px;
+}
+
+#textoCambiante {
+  width: 50%;
+  background-color: rgb(111, 216, 200);
+  border: black solid 1.5px;
+  border-radius: 30px;
+  color: white;
+  padding: 10px;
+  word-wrap: break-word;
+}
+
+#ejemplo-tres button,
+#ejemplo-tres input,
+#ejemplo-tres select {
+  height: 80px;
+  width: 80px;
+  border-radius: 90px;
+  font-size: x-large;
+}
+#cont-botones {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#resultado {
+  background-color: rgb(37, 37, 37);
+  justify-content: center;
+  align-items: center;
+
+  height: 80px;
+  border-radius: 90px;
+  width: 80px;
+
+  display: flex;
+  flex-direction: row;
+  font-size: xx-large;
+}
